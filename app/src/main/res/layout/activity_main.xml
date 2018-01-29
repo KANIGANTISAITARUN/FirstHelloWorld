@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+tools:context="com.example.saitarun.firsthelloworld.MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="printToast"
+        android:text="@string/firstButtonName"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="0"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/yellow"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secondbutton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"/>
+    </LinearLayout>
+

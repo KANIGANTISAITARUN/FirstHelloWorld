@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirstHelloWorld</string>
+    <string name="firstButtonName">
+        TOAST
+    </string>
+    <string name="secondbutton">
+        COUNT
+    </string>
+    <string name="hello_sasi_kiran">Hello sasi kiran!</string>
+    <string name="tMsg">My First Toast</string>
+</resources>
